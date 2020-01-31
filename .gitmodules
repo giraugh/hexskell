@@ -1,0 +1,9 @@
+[submodule "core"]
+	path = core
+	url = git://github.com/retroverse/hexskell-core
+[submodule "server"]
+	path = server
+	url = git://github.com/retroverse/hexskell-server
+[submodule "client"]
+	path = client
+	url = git://github.com/retroverse/hexskell-client

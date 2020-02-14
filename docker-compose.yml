@@ -30,3 +30,5 @@ services:
     image: mongo
     volumes:
       - "./db-data:/data/db"
+    logging:
+      driver: "none"

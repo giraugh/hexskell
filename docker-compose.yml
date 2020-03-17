@@ -17,14 +17,14 @@ services:
     env_file:
       - './server.env'
 
-  # client:
-  #   build: ./client/
-  #   ports:
-  #     - "1234:1234"
-  #   environment:
-  #     - BACK_END_ADDRESS=localhost:8090
-  #   env_file:
-  #     - './client.env'
+  client:
+    build: ./client/
+    ports:
+      - "1234:1234"
+    environment:
+      - BACK_END_ADDRESS=localhost:8090
+    env_file:
+      - './client.env'
 
   db:
     image: mongo
